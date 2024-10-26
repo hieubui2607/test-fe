@@ -7,9 +7,9 @@ const Contact = () => {
       <div className='row custom-row pt-2'>
         <div className='contact'>
           <h5 className='contact-attention'>
-            Apply <a className='contact-attention-highlight mx-1'>Copin Affilate Program</a> to get more benefits!
+            Apply <a href='/' className='contact-attention-highlight mx-1'>Copin Affilate Program</a> to get more benefits!
           </h5>
-          <a className='link-underline-opacity-0 link-custom fw-medium'>Contact us</a>
+          <a href='/' className='link-underline-opacity-0 link-custom fw-medium'>Contact us</a>
         </div>
       </div>
     </div>

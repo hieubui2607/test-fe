@@ -48,12 +48,12 @@ const Introduce = () => {
             <img src={Chart} alt="Chart" loading="lazy" width={'100%'} />
             <div>
               {Array.from({ length: 6 }, (_, i) => (
-                <img key={i} src={Light} className={`light${i + 1}`} style={{ display: 'none' }} />
+                <img key={i} src={Light} alt={`light${i + 1}`} className={`light${i + 1}`} style={{ display: 'none' }} />
               ))}
             </div>
             <div>
               {Array.from({ length: 6 }, (_, i) => (
-                <img key={i} src={Line} className={`line${i + 1}`} style={{ display: 'none' }} />
+                <img key={i} src={Line} alt={`light${i + 1}`} className={`line${i + 1}`} style={{ display: 'none' }} />
               ))}
             </div>
             <div>
@@ -67,7 +67,7 @@ const Introduce = () => {
                 >
                   <img src={tier} className={`tier${i + 1}`} alt={`Tier ${i + 1}`} loading="lazy" />
                   <img src={Dot} className={`dot${i + 1}`} alt={`dot${i + 1}`} style={{ display: 'none' }} />
-                  <img src={Info} className={`info${i + 1}`} style={{ display: 'none' }} />
+                  <img src={Info} className={`info${i + 1}`} alt={`info${i + 1}`} style={{ display: 'none' }} />
                 </div>
               ))}
             </div>
