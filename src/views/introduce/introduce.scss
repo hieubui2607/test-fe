@@ -1,0 +1,231 @@
+.introduce_bg {
+    box-sizing: border-box;
+    background-color: #0B0E18;
+    background-image: linear-gradient(90deg, #0b0e18 10%, #11142e 100%);
+    border-bottom: 1px solid #313855;
+
+    .title-introduce {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .custom-row {
+        max-width: 1061px;
+        margin: 0 auto;
+    }
+
+    .chart {
+        width: 360px;
+        position: relative;
+        .tier1 {
+            width: 35px;
+            position: absolute;
+            left: 0;
+            bottom: 20px;
+            cursor: pointer;
+        }
+
+        .tier2 {
+            width: 35px;
+            position: absolute;
+            left: 55px;
+            bottom: 20px;
+            cursor: pointer;
+        }
+
+        .tier3 {
+            width: 35px;
+            position: absolute;
+            left: 110px;
+            bottom: 15px;
+            cursor: pointer;
+        }
+
+        .tier4 {
+            width: 35px;
+            position: absolute;
+            left: 165px;
+            bottom: 15px;
+            cursor: pointer;
+        }
+
+        .tier5 {
+            width: 48px;
+            position: absolute;
+            left: 220px;
+            bottom: 15px;
+            cursor: pointer;
+        }
+
+        .tier6 {
+            width: 48px;
+            position: absolute;
+            left: 280px;
+            bottom: 15px;
+            cursor: pointer;
+        }
+
+        .dot1 {
+            position: absolute;
+            left: 5px;
+            bottom: 60px;
+        }
+
+        .dot2 {
+            position: absolute;
+            left: 59px;
+            bottom: 70px;
+        }
+
+        .dot3 {
+            position: absolute;
+            left: 115px;
+            bottom: 85px;
+        }
+
+        .dot4 {
+            position: absolute;
+            left: 169px;
+            bottom: 106px;
+        }
+
+        .dot5 {
+            position: absolute;
+            left: 230px;
+            bottom: 135px;
+        }
+
+        .dot6 {
+            position: absolute;
+            left: 290px;
+            bottom: 175px;
+        }
+
+        .light1 {
+            position: absolute;
+            width: 150px;
+            left: -58px;
+            bottom: 0;
+        }
+
+        .light2 {
+            position: absolute;
+            width: 150px;
+            left: -3px;
+            bottom: 0;
+        }
+
+        .light3 {
+            position: absolute;
+            width: 150px;
+            left: 52px;
+            bottom: 0;
+        }
+
+        .light4 {
+            position: absolute;
+            width: 150px;
+            left: 107px;
+            bottom: 0;
+        }
+
+        .light5 {
+            position: absolute;
+            width: 150px;
+            left: 167px;
+            bottom: 0;
+        }
+
+        .light6 {
+            position: absolute;
+            width: 150px;
+            left: 227px;
+            bottom: 0;
+        }
+
+        .info1 {
+            position: absolute;
+            width: 150px;
+            left: 0;
+            bottom: 90px;
+        }
+
+        .info2 {
+            position: absolute;
+            width: 150px;
+            left: 0px;
+            bottom: 105px;
+        }
+
+        .info3 {
+            position: absolute;
+            width: 150px;
+            left: 55px;
+            bottom: 120px;
+        }
+
+        .info4 {
+            position: absolute;
+            width: 150px;
+            left: 110px;
+            bottom: 138px;
+        }
+
+        .info5 {
+            position: absolute;
+            width: 150px;
+            left: 165px;
+            bottom: 80px;
+        }
+
+        .info6 {
+            position: absolute;
+            width: 150px;
+            left: 142px;
+            bottom: 161px;
+        }
+
+        .line1 {
+            position: absolute;
+            height: 30px;
+            left: 18px;
+            bottom: 45px;
+        }
+
+        .line2 {
+            position: absolute;
+            height: 45px;
+            left: 73px;
+            bottom: 45px;
+        }
+
+        .line3 {
+            position: absolute;
+            height: 75px;
+            left: 128px;
+            bottom: 40px;
+        }
+
+        .line4 {
+            position: absolute;
+            height: 110px;
+            left: 182px;
+            bottom: 35px;
+        }
+
+        .line5 {
+            position: absolute;
+            height: 154px;
+            left: 242px;
+            bottom: 30px;
+        }
+
+        .line6 {
+            position: absolute;
+            height: 210px;
+            left: 302px;
+            bottom: 22px;
+        }
+
+    }
+}

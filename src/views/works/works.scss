@@ -1,0 +1,42 @@
+.works_bg {
+    box-sizing: border-box;
+    background-color: #0B0E18;
+
+    .custom-row {
+        max-width: 1061px;
+        margin: 0 auto;
+    }
+
+    .custom_chart {
+        width: max-content;
+        height: 260px;
+    }
+    
+    .creative {
+        width: 20px;
+    }
+
+    .title_creative {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card-word {
+        height: 100%;
+        border: 1px solid #313855;
+        border-radius: 4px;
+        padding: 1em;
+        .icon-word {
+            width: 46px;
+        }
+        .title-word {
+            font-size: 16px;
+        }
+       
+    }
+
+    .ask-creative {
+        font-size: 16px;
+    }
+}

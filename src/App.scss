@@ -1,0 +1,31 @@
+#root {
+  background-color: #0B0E18;
+  min-height: 100vh;
+  font-family: "Anuphan", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5{
+  color: #FCFCFD !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  color: #C0C0C9;
+  font-size: 13px;
+}
+
+span {
+  color: #777E90;
+}
+
+.link-custom {
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #97CFFD;
+}
+
